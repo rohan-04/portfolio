@@ -2,7 +2,7 @@
 
 :root {
 	--primary-color: #f87171;
-	--Off-white: #f3f4f6;
+	--Off-white: #e5e7eb;
 	--dark-gray: #6b7280;
 }
 
@@ -13,6 +13,11 @@ body {
 
 hr {
 	margin: 2rem 0rem;
+}
+
+/* spaces */
+.margin-md {
+	margin-bottom: 4rem;
 }
 
 /* container */
