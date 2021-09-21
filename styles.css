@@ -2,7 +2,7 @@
 
 :root {
 	--primary-color: #111827;
-	--Off-white: #e5e7eb;
+	--Off-white: #f3f4f6;
 	--dark-gray: #6b7280;
 }
 
@@ -32,6 +32,10 @@ hr {
 }
 
 /* links */
+ol {
+	padding-inline-start: 0px;
+}
+
 .link {
 	text-decoration: none;
 	padding: 0.5rem 1rem;
@@ -129,6 +133,13 @@ hr {
 	text-align: left;
 }
 
+.project-container {
+	padding: 2rem;
+	border-radius: 0.5rem;
+	margin: 2rem auto;
+	width: 90%;
+}
+
 /* footer */
 .footer {
 	background-color: var(--primary-color);
@@ -136,6 +147,7 @@ hr {
 	text-align: center;
 	padding: 2rem 1rem;
 	border-top-right-radius: 1rem;
+	margin-top: 2rem;
 }
 
 .footer .link {
