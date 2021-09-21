@@ -86,6 +86,7 @@ hr {
 /* header */
 .hero {
 	padding: 2rem;
+	margin-top: 1.5rem;
 }
 
 .hero .hero-img {
@@ -107,14 +108,25 @@ hr {
 /* section */
 .section {
 	padding: 2rem;
+	width: 90%;
+	margin: auto;
+	border-radius: 0.5rem;
 }
 
 .section h1 {
 	text-align: center;
 }
 
+.section-pad {
+	padding: 0.5rem;
+}
+
 .ow {
 	background-color: var(--Off-white);
+}
+
+.blog {
+	text-align: left;
 }
 
 /* footer */
