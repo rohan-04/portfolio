@@ -1,6 +1,6 @@
 # Portfolio project
 
-## Fetures
+## Features
 
     1. Home page
     2. Projects page
